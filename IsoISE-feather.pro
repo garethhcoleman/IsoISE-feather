@@ -1,4 +1,4 @@
-update=Fri 23 Mar 2018 19:33:30 GMT
+update=Fri 23 Mar 2018 21:23:20 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/home/enduser/IsoISE-feather
@@ -282,3 +272,13 @@ LibName240=/home/enduser/kicad-library/kicad-symbols/Transistor_IGBT
 LibName241=/home/enduser/kicad-library/kicad-symbols/Triac_Thyristor
 LibName242=/home/enduser/kicad-library/kicad-symbols/Valve
 LibName243=/home/enduser/kicad-library/kicad-symbols/Video
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
