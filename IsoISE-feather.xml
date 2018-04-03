@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/enduser/wq-boardv2/wq-boardv2.sch</source>
-    <date>Thu 01 Mar 2018 12:17:33 GMT</date>
+    <source>/home/enduser/IsoISE-feather/IsoISE-feather.sch</source>
+    <date>Tue 03 Apr 2018 11:53:35 BST</date>
     <tool>Eeschema 4.0.7+dfsg1-1~bpo8+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Water Quality Feather</title>
+        <title>Isolon redux</title>
         <company>BitFIXit</company>
-        <rev>0.2</rev>
-        <date>2018-02-28</date>
-        <source>wq-boardv2.sch</source>
-        <comment number="1" value="Heavily based on IsoIon by Sparky's Widgets"/>
+        <rev>0.4</rev>
+        <date>2018-03-13</date>
+        <source>IsoISE-feather.sch</source>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -23,7 +23,7 @@
       <value>MCP3221</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001732E.pdf</datasheet>
-      <libsource lib="wq-boardv2" part="MCP3221"/>
+      <libsource lib="IsoISE-feather" part="MCP3221"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571A1</tstamp>
     </comp>
@@ -31,7 +31,7 @@
       <value>MCP4017</value>
       <footprint>TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf</datasheet>
-      <libsource lib="wq-boardv2" part="MCP4017"/>
+      <libsource lib="IsoISE-feather" part="MCP4017"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571A4</tstamp>
     </comp>
@@ -39,25 +39,25 @@
       <value>ADUM1250ARZ</value>
       <footprint>SMD_Packages:SOIC-8-N</footprint>
       <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf</datasheet>
-      <libsource lib="wq-boardv2" part="ADUM1250ARZ"/>
+      <libsource lib="IsoISE-feather" part="ADUM1250ARZ"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571A6</tstamp>
     </comp>
-    <comp ref="R3">
+    <comp ref="R7">
       <value>10K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571AA</tstamp>
     </comp>
-    <comp ref="R4">
+    <comp ref="R8">
       <value>100K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571AB</tstamp>
     </comp>
-    <comp ref="R6">
+    <comp ref="R10">
       <value>100K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
@@ -66,12 +66,12 @@
     </comp>
     <comp ref="C5">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <footprint>kicad-library:C_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571AD</tstamp>
     </comp>
-    <comp ref="R8">
+    <comp ref="R12">
       <value>500R</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
@@ -80,26 +80,26 @@
     </comp>
     <comp ref="C8">
       <value>220pF</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <footprint>kicad-library:C_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571AF</tstamp>
     </comp>
     <comp ref="C9">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <footprint>kicad-library:C_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571B0</tstamp>
     </comp>
-    <comp ref="R5">
+    <comp ref="R9">
       <value>3K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571B1</tstamp>
     </comp>
-    <comp ref="R7">
+    <comp ref="R11">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
@@ -108,7 +108,7 @@
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <footprint>kicad-library:C_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571B3</tstamp>
@@ -117,12 +117,12 @@
       <value>REF3130</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/ref3130.pdf</datasheet>
-      <libsource lib="wq-boardv2" part="REF3130"/>
+      <libsource lib="IsoISE-feather" part="REF3130"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571B6</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>3K</value>
+    <comp ref="R5">
+      <value>4.7K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
       <sheetpath names="/" tstamps="/"/>
@@ -130,20 +130,20 @@
     </comp>
     <comp ref="C2">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <footprint>kicad-library:C_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571C0</tstamp>
     </comp>
     <comp ref="C1">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <footprint>kicad-library:C_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571C4</tstamp>
     </comp>
-    <comp ref="R2">
-      <value>3K</value>
+    <comp ref="R6">
+      <value>4.7K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="diy-r" part="R_US"/>
       <sheetpath names="/" tstamps="/"/>
@@ -170,17 +170,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A9571D0</tstamp>
     </comp>
-    <comp ref="J1">
+    <comp ref="J2">
       <value>BNC</value>
-      <footprint>Connectors:BNC</footprint>
+      <footprint>kicad-library:BNC-Amphenol</footprint>
+      <datasheet>https://www.amphenolrf.com/downloads/dl/file/id/7797/product/565/031_5431_10rfx_customer_drawing.pdf</datasheet>
       <libsource lib="conn" part="Conn_Coaxial"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A95818A</tstamp>
     </comp>
     <comp ref="U4">
       <value>TL072</value>
-      <footprint>Power_Integrations:SO-8</footprint>
-      <libsource lib="wq-boardv2" part="TL072"/>
+      <footprint>kicad-library:SOP-8L</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl072.pdf</datasheet>
+      <libsource lib="IsoISE-feather" part="TL072"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A961D83</tstamp>
     </comp>
@@ -188,35 +190,63 @@
       <value>MTU1D0305MC</value>
       <footprint>kicad-library:5pinMTU</footprint>
       <datasheet>https://power.murata.com/data/power/ncl/kdc_mtu1.pdf</datasheet>
-      <libsource lib="wq-boardv2" part="MTU1D0305MC"/>
+      <libsource lib="IsoISE-feather" part="MTU1D0305MC"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A97B89A</tstamp>
     </comp>
     <comp ref="L1">
       <value>10uH</value>
-      <footprint>Inductors_SMD:L_1210_HandSoldering</footprint>
-      <libsource lib="wq-boardv2" part="INDUCTOR-MAG-CORE"/>
+      <footprint>kicad-library:Inductor_Murata_8200</footprint>
+      <libsource lib="IsoISE-feather" part="INDUCTOR-MAG-CORE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A985F24</tstamp>
     </comp>
     <comp ref="L2">
       <value>10uH</value>
-      <footprint>Inductors_SMD:L_1210_HandSoldering</footprint>
+      <footprint>kicad-library:Inductor_Murata_8200</footprint>
       <datasheet>https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf</datasheet>
-      <libsource lib="wq-boardv2" part="INDUCTOR-MAG-CORE"/>
+      <libsource lib="IsoISE-feather" part="INDUCTOR-MAG-CORE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A986792</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>Conn_01x04</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="Conn_01x04"/>
+    <comp ref="R2">
+      <value>3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="diy-r" part="R_US"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A9C49A6</tstamp>
+      <tstamp>5A9BF57D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="diy-r" part="R_US"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BF651</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C2FB9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="diy-r" part="R_US"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C31FA</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>FEATHER</value>
+      <footprint>kicad-library:FeatherWing</footprint>
+      <libsource lib="IsoISE-feather" part="FEATHER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA0477B</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="wq-boardv2" part="ADUM1250ARZ">
+    <libpart lib="IsoISE-feather" part="ADUM1250ARZ">
       <footprints>
         <fp>R_8</fp>
       </footprints>
@@ -252,8 +282,8 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="Conn_01x04">
-      <description>Generic connector, single row, 01x04</description>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
@@ -265,13 +295,12 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04</field>
+        <field name="Value">Conn_01x03</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="Conn_Coaxial">
@@ -292,7 +321,49 @@
         <pin num="2" name="Ext" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="wq-boardv2" part="INDUCTOR-MAG-CORE">
+    <libpart lib="IsoISE-feather" part="FEATHER">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FEATHER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="AREF" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="A0" type="passive"/>
+        <pin num="6" name="A1" type="passive"/>
+        <pin num="7" name="A2" type="passive"/>
+        <pin num="8" name="A3" type="passive"/>
+        <pin num="9" name="A4" type="passive"/>
+        <pin num="10" name="A5" type="passive"/>
+        <pin num="11" name="SCK" type="passive"/>
+        <pin num="12" name="MOSI" type="passive"/>
+        <pin num="13" name="MISO" type="passive"/>
+        <pin num="14" name="RX" type="passive"/>
+        <pin num="15" name="TX" type="passive"/>
+        <pin num="16" name="D21" type="passive"/>
+        <pin num="17" name="VBAT" type="passive"/>
+        <pin num="18" name="EN" type="passive"/>
+        <pin num="19" name="VUSB" type="passive"/>
+        <pin num="20" name="D13" type="passive"/>
+        <pin num="21" name="D12" type="passive"/>
+        <pin num="22" name="D27" type="passive"/>
+        <pin num="23" name="D33" type="passive"/>
+        <pin num="24" name="D15" type="passive"/>
+        <pin num="25" name="D32" type="passive"/>
+        <pin num="26" name="D14" type="passive"/>
+        <pin num="27" name="SCL" type="passive"/>
+        <pin num="28" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IsoISE-feather" part="INDUCTOR-MAG-CORE">
       <fields>
         <field name="Reference">L</field>
         <field name="Value">INDUCTOR-MAG-CORE</field>
@@ -302,7 +373,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="wq-boardv2" part="MCP3221">
+    <libpart lib="IsoISE-feather" part="MCP3221">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">MCP3221</field>
@@ -315,7 +386,7 @@
         <pin num="5" name="SCL" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="wq-boardv2" part="MCP4017">
+    <libpart lib="IsoISE-feather" part="MCP4017">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">MCP4017</field>
@@ -329,7 +400,7 @@
         <pin num="6" name="W" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="wq-boardv2" part="MTU1D0305MC">
+    <libpart lib="IsoISE-feather" part="MTU1D0305MC">
       <footprints>
         <fp>RS_20</fp>
       </footprints>
@@ -345,7 +416,7 @@
         <pin num="6" name="+VOUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="wq-boardv2" part="REF3130">
+    <libpart lib="IsoISE-feather" part="REF3130">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">REF3130</field>
@@ -370,7 +441,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="wq-boardv2" part="TL072">
+    <libpart lib="IsoISE-feather" part="TL072">
       <footprints>
         <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
         <fp>DIP*W7.62mm*</fp>
@@ -401,133 +472,214 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="IsoISE-feather">
+      <uri>/home/enduser/IsoISE-feather/IsoISE-feather.lib</uri>
+    </library>
     <library logical="diy-r">
       <uri>/home/enduser/kicad-library/diy-r.lib</uri>
-    </library>
-    <library logical="wq-boardv2">
-      <uri>/home/enduser/wq-boardv2/wq-boardv2.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R2-Pad2)">
-      <node ref="U6" pin="4"/>
-      <node ref="U2" pin="7"/>
-      <node ref="U3" pin="4"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="2" name="Net-(R1-Pad2)">
-      <node ref="U3" pin="3"/>
+    <net code="1" name="Net-(R5-Pad2)">
       <node ref="U2" pin="6"/>
+      <node ref="U3" pin="3"/>
       <node ref="U6" pin="5"/>
-      <node ref="R1" pin="2"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="3" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1"/>
-      <node ref="U4" pin="5"/>
-    </net>
-    <net code="4" name="Net-(J2-Pad2)">
-      <node ref="J2" pin="2"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="5" name="Net-(J2-Pad3)">
-      <node ref="U2" pin="2"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="6" name="+3V3">
-      <node ref="C1" pin="2"/>
-      <node ref="J2" pin="4"/>
-      <node ref="U2" pin="1"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="7" name="VDD">
-      <node ref="L1" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="U3" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U2" pin="8"/>
+    <net code="2" name="VDD">
       <node ref="C3" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="U5" pin="3"/>
-      <node ref="R1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="1"/>
       <node ref="C2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C6" pin="1"/>
     </net>
-    <net code="8" name="VEE">
-      <node ref="C4" pin="1"/>
-      <node ref="U4" pin="4"/>
-      <node ref="L2" pin="2"/>
+    <net code="3" name="Net-(C7-Pad1)">
+      <node ref="U6" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="1"/>
     </net>
-    <net code="9" name="Earth">
-      <node ref="J1" pin="2"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U5" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U3" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U6" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="10" name="GNDPWR">
-      <node ref="U1" pin="3"/>
-      <node ref="J2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="11" name="Net-(L2-Pad1)">
-      <node ref="U1" pin="4"/>
-      <node ref="L2" pin="1"/>
-    </net>
-    <net code="12" name="Net-(L1-Pad1)">
+    <net code="4" name="Net-(L1-Pad1)">
       <node ref="U1" pin="6"/>
       <node ref="L1" pin="1"/>
     </net>
-    <net code="13" name="Net-(C8-Pad2)">
+    <net code="5" name="Net-(L2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
       <node ref="R8" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="7" name="Net-(R9-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="8" name="/12">
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="9" name="/AREF">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="10" name="/~RESET">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="11" name="/VUSB">
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="12" name="/VBAT">
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="13" name="/14">
+      <node ref="J3" pin="26"/>
+    </net>
+    <net code="14" name="/32">
+      <node ref="J3" pin="25"/>
+    </net>
+    <net code="15" name="/15">
+      <node ref="J3" pin="24"/>
+    </net>
+    <net code="16" name="/33">
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="17" name="/27">
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="18" name="/A0">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="19" name="/13">
+      <node ref="J3" pin="20"/>
+    </net>
+    <net code="20" name="/EN">
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="21" name="/A1">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="22" name="/A2">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="23" name="/A3">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="24" name="/A4">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="25" name="/A5">
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="26" name="/SCK">
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="27" name="/TX">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="28" name="/RX">
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="29" name="/MOSI">
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="30" name="/MISO">
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="31" name="Net-(C5-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C5-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R10-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C8-Pad2)">
+      <node ref="R12" pin="1"/>
       <node ref="C8" pin="2"/>
       <node ref="U6" pin="3"/>
     </net>
-    <net code="14" name="Net-(C7-Pad1)">
-      <node ref="U5" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="U6" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C7" pin="1"/>
-    </net>
-    <net code="15" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="16" name="Net-(R4-Pad1)">
-      <node ref="U4" pin="6"/>
+    <net code="35" name="Net-(R6-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U6" pin="4"/>
       <node ref="R6" pin="2"/>
-      <node ref="R4" pin="1"/>
     </net>
-    <net code="17" name="Net-(R6-Pad1)">
-      <node ref="R6" pin="1"/>
-      <node ref="U4" pin="7"/>
-      <node ref="R8" pin="2"/>
+    <net code="36" name="Net-(J2-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="18" name="Net-(C5-Pad1)">
+    <net code="37" name="GND">
+      <node ref="U2" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="38" name="VEE">
+      <node ref="L2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="39" name="Earth">
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="40" name="/SCL">
+      <node ref="J3" pin="27"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="41" name="/21">
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="16"/>
       <node ref="R4" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U3" pin="5"/>
     </net>
-    <net code="19" name="Net-(C5-Pad2)">
-      <node ref="U3" pin="6"/>
-      <node ref="U4" pin="2"/>
-      <node ref="R3" pin="1"/>
-      <node ref="C5" pin="2"/>
+    <net code="42" name="VCC">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="44" name="/SDA">
+      <node ref="R2" pin="2"/>
+      <node ref="J3" pin="28"/>
+      <node ref="U2" pin="2"/>
     </net>
   </nets>
 </export>
