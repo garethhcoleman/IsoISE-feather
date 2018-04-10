@@ -1,4 +1,4 @@
-update=Fri 23 Mar 2018 21:23:20 GMT
+update=Tue 10 Apr 2018 14:34:47 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=/home/enduser/IsoISE-feather
+LibDir=/home/enduser/IsoISE-feather;/home/enduser/kicad-library
 [eeschema/libraries]
 LibName1=IsoISE-feather
 LibName2=/home/enduser/kicad-library/diy-r
@@ -272,6 +272,7 @@ LibName240=/home/enduser/kicad-library/kicad-symbols/Transistor_IGBT
 LibName241=/home/enduser/kicad-library/kicad-symbols/Triac_Thyristor
 LibName242=/home/enduser/kicad-library/kicad-symbols/Valve
 LibName243=/home/enduser/kicad-library/kicad-symbols/Video
+LibName244=someguy/adc_kl
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
